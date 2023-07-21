@@ -8,8 +8,8 @@ export const BannerSection = () => {
         <span className="label">@DanielNevesFonseca</span>
         <h1 className="title1 bold">Seja bem vindo ao meu portifólio!</h1>
         <p className={`text`}>
-          Acredito que tudos os objetivos e sonhos podem ser alcançado por
-          aqueles que tem determinação e não desistem!
+          Acredito que todos os objetivos e sonhos podem ser alcançados por
+          aqueles que têm determinação e persistência.
         </p>
         <button className="button-custom">Saiba Mais</button>
       </div>
