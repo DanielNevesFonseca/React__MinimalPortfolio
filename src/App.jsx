@@ -7,7 +7,7 @@ import { ProjectSection } from "./components/ProjectSection";
 
 import "./styles/index.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />
