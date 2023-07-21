@@ -1,28 +1,26 @@
 import styles from "./style.module.css";
+import logo from "../../assets/portfolio.png";
 
 export const Header = () => {
   return (
     <header className={styles.header}>
       <img
         className={styles.logo}
-        src="../src/assets/portfolio.png"
+        src={logo}
         alt="logo portifolio"
       />
       <ul className={styles.menuPagesContainer}>
         <li>
-          {" "}
           <a className={styles.pagesItem} href="#about">
             Sobre
-          </a>{" "}
+          </a>
         </li>
         <li>
-          {" "}
           <a className={styles.pagesItem} href="#stack">
             Stack
-          </a>{" "}
+          </a>
         </li>
         <li>
-          {" "}
           <a className={styles.pagesItem} href="#projects">
             Projetos
           </a>
