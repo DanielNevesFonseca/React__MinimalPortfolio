@@ -1,0 +1,21 @@
+.aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 1024px) {
+  .aboutMeSection {
+    flex-direction: row;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  .aboutMeSection > h2 {
+    width: 20%;
+  }
+
+  .aboutMeSection p {
+    min-width: 70%;
+    flex: 1;
+  }
+}

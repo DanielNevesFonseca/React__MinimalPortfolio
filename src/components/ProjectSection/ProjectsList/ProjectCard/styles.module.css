@@ -1,0 +1,35 @@
+.projectCard {
+  width: 100%;
+  height: max-content;
+  border: 1px solid var(--color-grey-4);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  border-radius: 12px;
+}
+
+.projectCard > h3 {
+  max-width: calc(100% - 40px);
+}
+
+.projectCard:hover {
+  scale: 1.02;
+  transition: all ease-in-out 0.5s;
+  box-shadow: 0 0 10px 2px var(--color-primary-hover);
+}
+
+.gitIcon {
+  width: clamp(30px, 8vw, 40px);
+  object-fit: contain;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+@media (min-width: 1024px) {
+  .projectCard {
+    width: calc(50% - 8px);
+  }
+}

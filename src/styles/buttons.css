@@ -1,0 +1,16 @@
+.button-custom{
+  width: max-content;
+  padding: 8px 24px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.button-custom:hover{
+  background-color: var(--color-primary-hover);
+}
+

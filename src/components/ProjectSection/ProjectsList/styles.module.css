@@ -1,0 +1,12 @@
+.projectListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .projectListContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

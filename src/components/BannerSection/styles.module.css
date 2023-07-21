@@ -1,0 +1,35 @@
+.bannerSection {
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.bannerImage {
+  object-fit: cover;
+  max-width: 100%;
+  margin-top: 36px;
+  margin-bottom: 72px;
+}
+
+@media (min-width: 1024px) {
+  .bannerSection {
+    flex-direction: row;
+  }
+
+  .bannerImage,
+  .textContainer {
+    width: 50%;
+  }
+
+  .bannerImage {
+    max-width: 500px;
+  }
+}

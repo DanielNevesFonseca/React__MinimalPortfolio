@@ -1,0 +1,21 @@
+.techCard {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  border: 1px solid var(--color-grey-4);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.techCard:hover {
+  scale: 1.02;
+  transition: all ease-in-out 0.5s;
+  box-shadow: 0 0 10px 2px var(--color-primary);
+}
+
+@media (min-width: 1024px) {
+  .techCard {
+    max-width: 37%;
+    flex-grow: 1;
+  }
+}

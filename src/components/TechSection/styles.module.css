@@ -1,0 +1,18 @@
+.techSection {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.techCardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .techCardsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

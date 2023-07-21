@@ -1,0 +1,39 @@
+@import "./reset.css";
+@import "./global.css";
+@import "./typography.css";
+@import "./buttons.css";
+
+body {
+  background-color: var(--color-black);
+  padding: 24px 24px 60px 24px;
+  position: relative;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+#top{
+  position: absolute;
+  bottom: 12px;
+  left: calc(50% - 70px);
+
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 24px 110px 60px 110px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 24px 220px 60px 220px;
+  }
+
+  .App {
+    gap: 100px;
+  }
+}
