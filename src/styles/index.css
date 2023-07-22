@@ -5,34 +5,29 @@
 
 body {
   background-color: var(--color-black);
-  padding: 24px 24px 60px 24px;
   position: relative;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1280px;
 }
 
 .App {
   display: flex;
   flex-direction: column;
   gap: 80px;
+  margin: 0.75rem 2.25rem 3rem 2.25rem;
 }
 
-#top{
+#top {
   position: absolute;
   bottom: 12px;
   left: calc(50% - 70px);
-
-}
-
-@media (min-width: 768px) {
-  body {
-    padding: 24px 110px 60px 110px;
-  }
 }
 
 @media (min-width: 1024px) {
-  body {
-    padding: 24px 220px 60px 220px;
-  }
-
   .App {
     gap: 100px;
   }
