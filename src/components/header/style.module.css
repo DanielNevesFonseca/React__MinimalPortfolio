@@ -10,7 +10,7 @@
 
 .logo {
   object-fit: contain;
-  width: clamp(100px, 20%, 150px);
+  width: clamp(60px, 20%, 71px);
   cursor: pointer;
 }
 
