@@ -1,7 +1,9 @@
 import styles from "./styles.module.css";
 import imageComputer from "../../assets/banner-img.png";
 
+
 export const BannerSection = () => {
+
   return (
     <section className={styles.bannerSection}>
       <div className={styles.textContainer}>
@@ -11,7 +13,7 @@ export const BannerSection = () => {
           Acredito que todos os objetivos e sonhos podem ser alcançados por
           aqueles que têm determinação e persistência.
         </p>
-        <button className="button-custom">Saiba Mais</button>
+        <a href="https://drive.google.com/file/d/19xlO4L05hd9kys7qpsohCrTZ6Nhjxldn/view?usp=drive_link" className="button-custom">Meu Currículo</a>
       </div>
       <img
         className={styles.bannerImage}
